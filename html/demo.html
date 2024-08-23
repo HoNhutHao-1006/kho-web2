@@ -1,61 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
+    <title>Trang Cá Nhân</title>
+    <style>
         body {
-        background-color: #eee01e;
-    }
-    
-    h1 {
-        text-align: center;
-        color: #b42727;
-    }
-    
-    fieldset {
-        width: 300px;
-        margin: 0 auto;
-        padding: 20px;
-        border: 1px solid #ccc;
-        background-color: #c7eb64;
-    }
-    
-    legend {
-        font-weight: bold;
-        font-size: 1.2em;
-        color: #333;
-    }
-    
-    h1 {
-        font-size: 1.5em;
-        color: #333;
-    }
-    
-    p {
-        font-size: 1em;
-        color: #666;
-    }
-    
-    a {
-        color: #007bff;
-        text-decoration: none;
-    }
-    
-    a:hover {
-        color: #0056b3
-</style>
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .profile-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .profile-container img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        
+        .profile-container h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        
+        .profile-container p {
+            color: #666;
+            margin: 10px 0;
+        }
+        
+        .profile-container .details {
+            margin-top: 20px;
+            text-align: left;
+        }
+        
+        .profile-container .details p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
 
 <body>
-    <h1>Profile Le Huu Loi</h1>
-    <fieldset>
-        <legend>AnGiang
-        </legend>
-        <h1>Le Huu Loi</h1>
-    </fieldset>
+    <div class="profile-container">
+        <img src="c:\Users\Student\Downloads\1c4bfc3fa5f845a61ce9.jpg" alt="Ảnh Hồ Sơ">
+        <h1>Lê Hữu Lợi</h1>
+        <p>Nhà Phát Triển Web</p>
+        <div class="details">
+            <p><strong>Email:</strong> le.huu.loi@example.com</p>
+            <p><strong>Địa chỉ:</strong> Thành phố Hồ Chí Minh, VN</p>
+            <p><strong>Giới thiệu:</strong> Nhà phát triển web nhiệt huyết với kinh nghiệm trong HTML, CSS và JavaScript. Yêu thích việc tạo ra những trải nghiệm người dùng trực quan và động.</p>
+        </div>
+    </div>
 </body>
 
 </html>
